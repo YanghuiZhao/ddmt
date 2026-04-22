@@ -420,6 +420,18 @@ a {
   padding: 1.45rem;
 }
 
+.faculty-note__head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.faculty-note__avatar {
+  width: 84px;
+  height: 84px;
+}
+
 .faculty-note h3 span,
 .person-card h4 span {
   color: var(--muted);
@@ -446,6 +458,10 @@ a {
 }
 
 .person-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.95rem;
+  align-items: start;
   padding: 1rem 0;
   border-top: 1px solid var(--rule);
 }
@@ -457,6 +473,16 @@ a {
 
 .person-card h4 {
   font-size: 1.32rem;
+}
+
+.person-card__avatar {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(20, 35, 52, 0.12);
+  box-shadow: 0 10px 22px rgba(20, 35, 52, 0.08);
+  background: var(--paper-strong);
 }
 
 .roster--plain {
