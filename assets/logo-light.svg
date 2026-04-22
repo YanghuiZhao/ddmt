@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#020813"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda"/>
+      <stop offset="100%" stop-color="#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="leftPlateGrad" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="rightPlateGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="250" cy="200" r="140" />
+    </clipPath>
+  </defs>
+
+  <circle cx="250" cy="200" r="145" fill="none" stroke="#32547e" stroke-width="4"/>
+  <circle cx="250" cy="200" r="155" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.9"/>
+
+  <g clip-path="url(#circleClip)">
+    <rect x="110" y="60" width="280" height="280" fill="url(#oceanGrad)"/>
+    <polygon points="50,300 230,300 245,220 180,180" fill="url(#leftPlateGrad)" opacity="0.95"/>
+    <polygon points="450,300 270,300 255,220 320,180" fill="url(#rightPlateGrad)" opacity="0.95"/>
+    <polygon points="230,300 270,300 255,220 245,220" fill="#ff6b81" opacity="0.40"/>
+    <polyline points="90,200 130,200 160,110 190,260 220,150 250,200 310,200 350,160 380,220 410,80"
+      fill="none" stroke="url(#cyanGrad)" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="160" cy="110" r="5" fill="#ffffff"/>
+    <circle cx="190" cy="260" r="5" fill="#ffffff"/>
+    <circle cx="220" cy="150" r="5" fill="#ffffff"/>
+    <circle cx="250" cy="200" r="6" fill="#64ffda"/>
+    <circle cx="310" cy="200" r="4" fill="#ffffff"/>
+    <circle cx="350" cy="160" r="4" fill="#ffffff"/>
+    <circle cx="380" cy="220" r="4" fill="#ffffff"/>
+  </g>
+
+  <text x="250" y="410"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-weight="800"
+        font-size="48"
+        fill="#f8fcff"
+        text-anchor="middle"
+        letter-spacing="4">DDMT</text>
+
+  <text x="250" y="445"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-weight="500"
+        font-size="14"
+        fill="#bcefff"
+        text-anchor="middle"
+        letter-spacing="3">DATA-DRIVEN MARINE TECTONICS</text>
+  <text x="250" y="465"
+        font-family="'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif"
+        font-weight="500"
+        font-size="14"
+        fill="#bcefff"
+        text-anchor="middle"
+        letter-spacing="1">数据驱动海洋构造课题组</text>
+</svg>
