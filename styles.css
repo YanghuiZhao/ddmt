@@ -343,7 +343,7 @@ a {
 }
 
 .research-columns {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   align-items: start;
 }
 
@@ -457,6 +457,13 @@ a {
   aspect-ratio: 16 / 11;
   object-fit: cover;
   border-radius: calc(var(--radius-lg) - 10px);
+}
+
+.group-figure__caption {
+  margin: 0.8rem 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.6;
 }
 
 .person-card {
